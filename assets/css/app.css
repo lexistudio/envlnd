@@ -1,13 +1,42 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-    background: #f6f6f6;
+.head {
+  background: #181818;
 }
 
-header {
-    height: 67px;
-    background: blue;
+.head__elem {
+  height: 67px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.page {
+  width: 1390px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+}
+
+.nav a {
+    color: #9a9a9a;
+    text-decoration: none;
+    font: 16px/1.1 Arial;
+    transition: color .1s linear;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+.nav li {
+    margin-left: 40px;
 }
