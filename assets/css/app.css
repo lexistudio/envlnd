@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f6f6f6;
+}
+
+header {
+    height: 67px;
+    background: blue;
+}
